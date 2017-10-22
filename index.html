@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>F.A.S.T.</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fontlibrary.org/face/trueno" media="screen">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville">
+</head>
+
+<body>
+    <div id="overlay" class="hidden">
+    </div>
+
+    <video controls playsinline autoplay id="bgvid">
+        <source src="mov/stroke-video.mp4" type="video/mp4">
+    </video>
+
+    <h1 id="title" class="intro hidden">Stadig flere unge får hjerneslag</h1>
+    <h1 id="fast-info" class="intro hidden">F.A.S.T.-regelen avslører de vanligste symptomene</h1>
+
+
+    <!-- Fjes -->
+    <img id="imessage" class="hidden" alt="iMessage" src="img/iMessage.png">
+
+    <div id="question1" class="question hidden">
+        <h2>Hva tror du kan være et av de vanligste symptomene på slag?</h2>
+
+        <div class="alt-container">
+            <div class="alternativeQ1">Svimmelhet</div>
+            <div class="alternativeQ1">Matlyst</div>
+            <div class="alternativeQ1 correct">Lammet fjes</div>
+        </div>
+    </div>
+
+    <div class="letter-meaning hidden">
+        <p>Riktig svar er</p>
+        <h1>Lammet <span>F</span>jes</h1>
+        <p class="explanation">Be personen smile eller le. Ansiktslammelse og at personen smiler skjevt er symptomer på slag.</p>
+
+        <div class="continue">Fortsett film</div>
+    </div>
+
+
+    <!-- Arm -->
+    <div class="question hidden">
+        <h2>I hvilken kroppsdel er det vanlig å få lammelser under slag?</h2>
+
+        <div class="alt-container">
+            <div class="alternativeQ2 correct">Arm</div>
+            <div class="alternativeQ2">Bein</div>
+            <div class="alternativeQ2">Rygg</div>
+        </div>
+    </div>
+
+    <div class="letter-meaning hidden">
+        <p>Riktig svar er</p>
+        <h1><span>A</span>rm</h1>
+        <p class="explanation">Be personen løfte begge armene. Se etter lammelse - klarer ikke personen å holde dem oppe er dette et symptom på slag.</p>
+
+        <div class="continue">Fortsett film</div>
+    </div>
+
+
+    <!-- Språk -->
+    <div class="question hidden">
+        <h2>Hvilket vanlig symptom kan bli problematisk under en telefonsamtale?</h2>
+
+        <div class="alt-container">
+            <div class="alternativeQ3 correct">Språk</div>
+            <div class="alternativeQ3">Støy</div>
+            <div class="alternativeQ3">Sanser</div>
+        </div>
+    </div>
+
+    <div class="letter-meaning hidden">
+        <p>Riktig svar er</p>
+        <h1><span>S</span>pråk</h1>
+        <p class="explanation">Be personen si en enkel setning og sjekk om personen snakker utydelig. Språkforstyrrelse og problemer med å finne ord er symptomer på slag.</p>
+        
+        <div class="continue">Fortsett film</div>
+    </div>
+
+
+    <!-- Tid -->
+    <h2 class="black-bg hidden">Alder er ingen garanti</h2>
+    <h2 class="black-bg hidden">Tidlig behandling er helt avgjørende for konsekvensene av slag</h2>
+    <h2 class="black-bg hidden">Ved et eller flere F.A.S.T.-symptomer, ring 113!</h2>
+    <h1 class="black-bg hidden"><span>T</span>id</h1>
+
+    <div class="black-bg hidden">
+        <div id="play-again" class="end-link">Spill igjen</div>
+        <a class="end-link" target="_blank" href="https://www.rodekors.no/vart-arbeid/beredskap/forstehjelp">Les mer</a>
+    </div>
+
+    <script src="js/interactive-video.js"></script>
+</body>
+
+</html>
